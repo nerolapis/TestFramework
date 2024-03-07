@@ -7,12 +7,14 @@
 
 import Foundation
 
-open class TestClass {
+@objc
+open class TestClass: NSObject {
     
+    @objc
     open var testProperty: NSObject = NSObject()
     
+    @objc
     open func testMethod() -> NSObject {
         return self.testProperty
     }
-    
 }
