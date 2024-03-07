@@ -15,4 +15,4 @@ FOUNDATION_EXPORT const unsigned char TestFramework_visionOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TestFramework_visionOS/PublicHeader.h>
 
-
+#import <TestFramework/TestClass.swift>
